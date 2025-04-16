@@ -73,8 +73,10 @@ namespace NhapLuuTuBanPhim
         private void btDelete_Click(object sender, EventArgs e)
         {
             TxbLog.Clear();
+            TxbNhapdulieu.Clear();
             history.Clear();
             File.WriteAllText(LogFilePath, TxbLog.Text);
+
         }
     }
 }
