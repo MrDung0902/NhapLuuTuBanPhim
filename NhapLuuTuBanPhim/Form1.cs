@@ -62,7 +62,7 @@ namespace NhapLuuTuBanPhim
                 {
                     MessageBox.Show(" Loi khi luu JSON:" + ex.Message);
                 }
-                TxbNhapdulieu.Clear();
+                TxbNhapdulieu.Clear();// Xoa du  lieu ở ô nhập 
             }
         }
         private void textBox1_TextChanged(object sender, EventArgs e)
